@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: yellow;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+
+	
+}
+
+.menu {
+	height: 100px;
+	background-color: #ff6699
+}
+
+.sidebar {
+	height: 500px;
+	width: 200px;
+	background-color: #ff9900;
+	float: left;
+}
+
+.content {
+	height: 500px;
+	width: 700px;
+	background-color: turquoise;
+	float: left;
+	padding: 20px;
+
+}
+
+.footer {
+	clear: both;
+	height: 450px;
+	background-color: #ff3300;
+	border: 1px solid red;
+}
+
+.columns {
+	background-color: #ff9933;
+	height: 160px;
+	width: 30%;
+	margin: 20px 1.3%;
+	float: left;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+/*.clear {*/
+	/*overflow: auto*/
+/*}*/
+
+.clear:after {
+	content: "";
+	clear: "";
+	display: "";
+}
+
+.article-image {
+	float:left;
+	width: 300px;
+	height: 200px;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+p{
+	margin-bottom: 20px;
+	background-color: turquoise;
+
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url("https://www.wallstreetotc.com/wp-content/uploads/2014/10/facebook-anonymous-app.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.username {
+	margin-top: 30px;
+	background-color: #ff9933;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+	background-color: #ff9933;
+	/*This is important*/
+}
+
+.pcmr {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+}
+
+.menusub{
+	background-color: #ff6699;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.sidesub {
+	font-size: x-large;
+	background-color: #ff9900;
+	margin: 20px;
+}
+
+#SA {
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: xx-large;
+	background-color: violet;
+	border-radius: 20px;
+	padding-top: 10px;
+}

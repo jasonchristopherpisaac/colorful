@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	padding: 20px;
+
+}
+
+.grandparent {
+	background-color: skyblue;
+	position: fixed;
+	left: 25px;
+	z-index: -1;
+}
+
+.parent {
+	background-color: pink;
+}
+
+strong {
+	background-color: yellow;
+	position: absolute;
+	top: 15px;
+	/*bottom: 15px;*/
+	left: 15px;
+}
+
+#p {
+	z-index: -2;
+}
